@@ -7,12 +7,8 @@ export default function Dropdownbtn() {
       <button className={styles.dropbtn}>Асортимент НХНЛ</button>
       <div className={styles.dropdownContent}>
         <div className={styles.header}>АКСЕСУАРИ</div>
-        <Link className={styles.link} href="#">
-          Годівниці
-        </Link>
-        <Link className={styles.link} href="#">
-          Монтажі
-        </Link>
+        <Link href="#">Годівниці</Link>
+        <Link href="#">Монтажі</Link>
 
         <div className={styles.divider}></div>
 

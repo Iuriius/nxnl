@@ -1,15 +1,28 @@
 .header {
-display: flex;
-justify-content: space-between;
-align-items: center;
-font-weight: 900;
-color:azure;
-gap: 1rem;
-width: 100%;
-padding-left: 2rem;
-padding-right: 2rem;
-background-image: linear-gradient(to right, #196072, #006d7b, #007a80, #008782, #009380);padding: 0.5rem;
-border-radius: 5px;
-box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 900;
+  color: azure;
+  gap: 1rem;
+  width: 100%;
+  padding: 1rem;
+  background-image: linear-gradient(
+    to right,
+    #00689e,
+    #006d9b,
+    #007196,
+    #007490,
+    #00778a,
+    #077485,
+    #0e707f,
+    #136d7a,
+    #1e6373,
+    #265a6b,
+    #2c5162,
+    #2f4858
+  );
+  border-radius: 5px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
-
