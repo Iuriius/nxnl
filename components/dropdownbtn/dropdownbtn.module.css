@@ -1,0 +1,66 @@
+.link {
+  color: red;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: #0057ae;
+  color: azure;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+/* Style the dropdown content */
+.dropdownContent {
+  display: none;
+  position: absolute;
+  background-color: #e0f8d4;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Style the links inside the dropdown */
+.dropdownContent a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Add a divider between links */
+.divider {
+  border-top: 1px solid #ddd;
+}
+
+/* Change color on hover */
+.dropdownContent a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdownContent {
+  display: block;
+}
+/* Additional styles for headers */
+.dropdownContent .header {
+  color: #333; /* Adjust the color as needed */
+  font-weight: 400;
+  padding: 8px 16px;
+  background-color: #ddd; /* Background color for headers */
+}
+
+/* Additional styling for subheaders */
+.dropdownContent .subheader {
+  padding: 8px 16px;
+  font-weight: 100;
+  color: #555; /* Adjust the color as needed */
+}
