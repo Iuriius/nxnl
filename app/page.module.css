@@ -1,3 +1,27 @@
 .main {
-text-align: center;
+  margin: 0;
+}
+
+.ceo {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  background-image: url("/ceo.png"), url("/whitebg.png");
+  background-size: contain, contain;
+  background-repeat: no-repeat;
+  background-position: center right, bottom center;
+  border-radius: 5px;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+}
+
+.herotext {
+  color: #196072;
+  text-align: center;
+  background: -webkit-linear-gradient(#00689e, #2f4858);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
