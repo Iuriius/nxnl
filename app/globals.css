@@ -1,9 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;400;900&display=swap");
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   min-height: 100dvh;
-  background-image: linear-gradient(to right top, #2f4858, #2c5162, #265a6b, #1e6373, #136d7a, #06767e, #007e81, #008783, #009083, #0b9980, #24a27b, #3aaa74);
+  background-image: url("/dots.png"),
+    linear-gradient(
+      to right top,
+      #2f4858,
+      #2c5162,
+      #265a6b,
+      #1e6373,
+      #136d7a,
+      #06767e,
+      #007e81,
+      #008783,
+      #009083,
+      #0b9980,
+      #24a27b,
+      #3aaa74
+    );
+  background-blend-mode: screen;
+  background-size: contain;
+  backdrop-filter: blur(0.1rem);
 }
 
 .container {

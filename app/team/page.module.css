@@ -1,0 +1,40 @@
+.trust {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.team1pic {
+  width: 768px;
+  height: auto;
+}
+
+.h2 {
+  color: azure;
+  font-size: xx-large;
+  margin-bottom: 0;
+}
+
+.p1 {
+  color: azure;
+  font-weight: 400;
+  text-align: center;
+  font-size: x-large;
+  background-color: #00689e;
+  padding: 3rem;
+  border-radius: 5px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.p2 {
+  color: azure;
+  font-weight: 400;
+  text-align: center;
+  font-size: x-large;
+  background-color: #0057ae;
+  padding: 3rem;
+  border-radius: 5px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}

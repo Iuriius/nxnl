@@ -23,4 +23,47 @@
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  transform: translateX(-10%);
+}
+
+.flexcontainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.section2 {
+  margin-bottom: 2rem;
+}
+
+.h2 {
+  text-align: center;
+  color: azure;
+}
+
+.linktores {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  font-size: x-large;
+  color: azure;
+  transition: all ease-in-out 200ms;
+}
+
+.linktores:hover,
+.linktores:focus {
+  transform: scale(1.03);
+}
+
+.fishclub {
+  width: 300px;
+  height: auto;
+}
+
+.fishteam {
+  width: 300px;
+  height: auto;
+  filter: saturate(0) brightness(100);
 }
