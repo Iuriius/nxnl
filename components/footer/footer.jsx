@@ -23,7 +23,7 @@ export default function Footer() {
         <div>
           <p className={styles.contacts}>Ми в соцмережах:</p>
           <a
-            href="http://nhnl.com.ua"
+            href="https://www.youtube.com/@strashnaya_ribalka/videos"
             target="_blank"
             rel="noopener noreferrer"
             title="YouTube"

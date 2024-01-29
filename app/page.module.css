@@ -67,3 +67,51 @@
   height: auto;
   filter: saturate(0) brightness(100);
 }
+
+.section3 {
+  margin: 0;
+  text-align: center;
+  color: azure;
+}
+
+.newestcontainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.newest {
+  width: 300px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.section4 {
+  margin: 0;
+  text-align: center;
+  color: azure;
+}
+
+.oursocials {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.sociallink {
+  color: azure;
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+}
+
+.sociallink:hover,
+.sociallink:focus > .sociallink {
+  color: red;
+  text-decoration: none;
+}
+
+.socialpic {
+  width: 100px;
+  height: auto;
+  color: azure;
+}
