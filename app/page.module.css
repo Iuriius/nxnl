@@ -84,6 +84,8 @@
   width: 300px;
   height: auto;
   border-radius: 5px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
 .section4 {
@@ -105,13 +107,13 @@
 }
 
 .sociallink:hover,
-.sociallink:focus > .sociallink {
-  color: red;
+.sociallink:focus > .sociallink + .socialpic {
+  color: #00c4f3;
   text-decoration: none;
 }
 
 .socialpic {
   width: 100px;
   height: auto;
-  color: azure;
+  color: inherit;
 }

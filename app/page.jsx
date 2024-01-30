@@ -105,6 +105,7 @@ export default function Home() {
           </a>
 
           <a
+            className={styles.sociallink}
             href="https://www.facebook.com/profile.php?id=100080126141227"
             target="_blank"
             rel="noopener noreferrer"
@@ -115,6 +116,7 @@ export default function Home() {
           </a>
 
           <a
+            className={styles.sociallink}
             href="https://www.tiktok.com/@strashnyifishing"
             target="_blank"
             rel="noopener noreferrer"
@@ -125,6 +127,7 @@ export default function Home() {
           </a>
 
           <a
+            className={styles.sociallink}
             href="https://www.instagram.com/nhnl.com.ua"
             target="_blank"
             rel="noopener noreferrer"
