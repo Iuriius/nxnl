@@ -1,6 +1,7 @@
 import styles from "./page.module.css";
 import Image from "next/image";
 import Link from "next/link";
+import Carousel from "@/components/carousel/carousel";
 /*
 /**|======================================
 /**| pics
@@ -27,6 +28,7 @@ export default function Home() {
       </div>
 
       <div className={styles.section2}>
+        <Carousel />
         <h2 className={styles.h2}>НХНЛ це:</h2>
         <div className={styles.flexcontainer}>
           <div>
