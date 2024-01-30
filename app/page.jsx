@@ -28,7 +28,6 @@ export default function Home() {
       </div>
 
       <div className={styles.section2}>
-        <Carousel />
         <h2 className={styles.h2}>НХНЛ це:</h2>
         <div className={styles.flexcontainer}>
           <div>
@@ -70,6 +69,7 @@ export default function Home() {
             </Link>
           </div>
         </div>
+        <Carousel />
       </div>
 
       <div className={styles.section3}>
