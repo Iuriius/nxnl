@@ -9,6 +9,7 @@ import Carousel from "@/components/carousel/carousel";
 */
 import Club from "@/public/nxnl_club_logo.png";
 import Store from "@/public/nxnl_logo.png";
+import Team from "@/public/nxnl_team.png";
 import Feed from "@/public/feed.jpg";
 import Pasta from "@/public/pasta.jpg";
 import Grunt from "@/public/grunt.jpg";
@@ -63,7 +64,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Image src={Store} className={styles.fishteam} />
+              <Image src={Team} className={styles.fishteam} />
               <br />
               Спортивна команда
             </Link>

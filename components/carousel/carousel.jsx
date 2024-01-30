@@ -1,5 +1,4 @@
 "use client";
-import styles from "./carousel.module.css";
 import Image from "next/image";
 import { register } from "swiper/element/bundle";
 import { React, useRef, useEffect } from "react";
@@ -10,7 +9,11 @@ register();
 /**|======================================
 */
 import Testpic from "@/public/whitebg.png";
-
+/*
+/**|======================================
+/**| code
+/**|======================================
+*/
 export default function Carousel() {
   const swiperElRef = useRef(null);
 
