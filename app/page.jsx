@@ -38,7 +38,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Image src={Club} className={styles.fishclub} />
+              <Image src={Club} className={styles.fishclub} alt="Club" />
               <br />
               Риболовний клуб
             </a>
@@ -51,7 +51,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Image src={Store} className={styles.fishclub} />
+              <Image src={Store} className={styles.fishclub} alt="Store" />
               <br />
               Інтернет магазин
             </a>
@@ -64,7 +64,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Image src={Team} className={styles.fishteam} />
+              <Image src={Team} className={styles.fishteam} alt="Team" />
               <br />
               Спортивна команда
             </Link>
@@ -77,17 +77,17 @@ export default function Home() {
         <h2>НАШІ ОСТАННІ НОВИНКИ:</h2>
         <div className={styles.newestcontainer}>
           <div>
-            <Image src={Feed} className={styles.newest} />
+            <Image src={Feed} className={styles.newest} alt="новинка" />
             <h3>ГОДІВНИЦІ</h3>
           </div>
 
           <div>
-            <Image src={Pasta} className={styles.newest} />
+            <Image src={Pasta} className={styles.newest} alt="новинка" />
             <h3>ПЕЧИВО</h3>
           </div>
 
           <div>
-            <Image src={Grunt} className={styles.newest} />
+            <Image src={Grunt} className={styles.newest} alt="новинка" />
             <h3>ГРУНТИ</h3>
           </div>
         </div>
