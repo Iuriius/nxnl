@@ -116,3 +116,49 @@
   height: auto;
   color: inherit;
 }
+
+.section5 {
+  color: azure;
+  text-align: center;
+}
+
+.ourteamcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.profilecard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  padding: 1rem;
+  background: #00919b;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.profile {
+  width: 200px;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.ourteamsoccont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.ourteamsoclink {
+  text-decoration: none;
+}
+
+.ourteamsocpic {
+  color: azure;
+  width: 2rem;
+  height: auto;
+}

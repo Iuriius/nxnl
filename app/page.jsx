@@ -14,7 +14,12 @@ import Feed from "@/public/feed.jpg";
 import Pasta from "@/public/pasta.jpg";
 import Grunt from "@/public/grunt.jpg";
 import { FaYoutube, FaFacebookSquare, FaTiktok, FaInstagram } from "react-icons/fa";
-
+import Strashnyi from "@/public/strashnyi.jpg";
+/*
+/**|======================================
+/**| code
+/**|======================================
+*/
 export default function Home() {
   return (
     <main className={styles.main}>
@@ -139,6 +144,43 @@ export default function Home() {
             <FaInstagram className={styles.socialpic} />
             <p>Instagram</p>
           </a>
+        </div>
+      </div>
+
+      <div className={styles.section5}>
+        <h2>НАША КОМАНДА:</h2>
+        <div className={styles.ourteamcontainer}>
+          <div className={styles.profilecard}>
+            <Image className={styles.profile} src={Strashnyi} />
+            <h3>Олексій Страшний</h3>
+            <p>Чемпіон світу з фідерної риболовлі</p>
+            <div className={styles.ourteamsoccont}>
+              <a
+                className={styles.ourteamsoclink}
+                href="http://#"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaFacebookSquare className={styles.ourteamsocpic} />
+              </a>
+              <a
+                className={styles.ourteamsoclink}
+                href="http://#"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaInstagram className={styles.ourteamsocpic} />
+              </a>
+              <a
+                className={styles.ourteamsoclink}
+                href="http://#"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaYoutube className={styles.ourteamsocpic} />
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </main>
