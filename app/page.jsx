@@ -15,6 +15,7 @@ import Pasta from "@/public/pasta.jpg";
 import Grunt from "@/public/grunt.jpg";
 import { FaYoutube, FaFacebookSquare, FaTiktok, FaInstagram } from "react-icons/fa";
 import Strashnyi from "@/public/strashnyi.jpg";
+import Borsuk from "@/public/borsuk.jpg";
 /*
 /**|======================================
 /**| code
@@ -153,7 +154,39 @@ export default function Home() {
           <div className={styles.profilecard}>
             <Image className={styles.profile} src={Strashnyi} />
             <h3>Олексій Страшний</h3>
-            <p>Чемпіон світу з фідерної риболовлі</p>
+            <p className={styles.profilep}>Чемпіон світу з фідерної риболовлі</p>
+            <div className={styles.ourteamsoccont}>
+              <a
+                className={styles.ourteamsoclink}
+                href="http://#"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaFacebookSquare className={styles.ourteamsocpic} />
+              </a>
+              <a
+                className={styles.ourteamsoclink}
+                href="http://#"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaInstagram className={styles.ourteamsocpic} />
+              </a>
+              <a
+                className={styles.ourteamsoclink}
+                href="http://#"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaYoutube className={styles.ourteamsocpic} />
+              </a>
+            </div>
+          </div>
+
+          <div className={styles.profilecard}>
+            <Image className={styles.profile} src={Borsuk} />
+            <h3>Дмитро Борсук</h3>
+            <p className={styles.profilep}>Чемпіон України з поплавцевої риболовлі</p>
             <div className={styles.ourteamsoccont}>
               <a
                 className={styles.ourteamsoclink}
